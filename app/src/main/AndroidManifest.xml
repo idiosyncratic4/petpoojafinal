@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".cart_s"
+            android:label="@string/title_activity_cart_s"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cart_sb"
+            android:label="@string/title_activity_cart_sb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cart_m"
+            android:label="@string/title_activity_cart_m"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cart_ff"
+            android:label="@string/title_activity_cart_ff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cart_f"
+            android:label="@string/title_activity_cart_f"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_f"
+            android:label="@string/title_activity_menu_f"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_sb"
+            android:label="@string/title_activity_menu_sb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_s"
+            android:label="@string/title_activity_menu_s"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_m"
+            android:label="@string/title_activity_menu_m"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home_c"
+            android:label="@string/title_activity_home_c"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home_d"
+            android:label="@string/title_activity_home_d"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home_a"
+            android:label="@string/title_activity_home_a"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".launcher"
+            android:label="@string/title_activity_launcher"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_a"
+            android:label="@string/title_activity_login_a"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_d"
+            android:label="@string/title_activity_login_d"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registration_d"
+            android:label="@string/title_activity_registration_d"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".registration_c"
+            android:label="@string/title_activity_registration_c"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity2All"
+            android:label="@string/title_activity_main_2_all"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
